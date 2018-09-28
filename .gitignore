@@ -15,3 +15,6 @@ setup.cfg
 
 # PyCharm
 .idea/
+
+# Pytest
+.coverage
