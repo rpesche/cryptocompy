@@ -1,2 +1,4 @@
 vcrpy
 pytest
+pytest-cov
+codecov

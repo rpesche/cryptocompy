@@ -59,7 +59,3 @@ def test_get_coin_snapshot(coin, fiat, number_exchanges, price):
     assert kraken_exchange['FROMSYMBOL'] == coin
     assert kraken_exchange['TOSYMBOL'] == fiat
     assert float(kraken_exchange['PRICE']) == price
-
-
-def test_get_invalid_coin_snapshot():
-    pass
